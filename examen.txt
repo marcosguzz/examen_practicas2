@@ -41,12 +41,23 @@ Q97gHqFNb5Af9Jo5Nln64sVaBSlLjqjLWpsuWaEHRcOl15SB8YckxO221Big+exmP5569x
 mTAbu3Wl2LuN4fAAAAFW1hcmNvc2d1ekBBc3BpcmUtQTUxNQECAwQF
 -----END OPENSSH PRIVATE KEY-----
 
+l3
   Google cloud --> https://console.cloud.google.com/home/dashboard?project=core-field-330114
-  
+
+l4 
+  Instalacion apache --> 
+ssh lsi@IP EXTERNA
+sudo apt-get update
+sudo apt-get install apache2
+
   Configurar virtual host linux (digitalocean) --> https://www.digitalocean.com/community/tutorials/como-configurar-virtual-hosts-de-apache-en-ubuntu-16-04-es
   
+  Despues de --> sudo systemctl restart apache2
+                 sudo nano /etc/hosts
+
   Cerficicado SSL linux (digitalocean) --> https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-20-04-es
   
+l5
   Chuleta de comandos gpg (elbauldelprogramador) --> https://elbauldelprogramador.com/chuleta-de-comandos-para-gpg/
   
   Crear contraseñas ssh --> ssh-keygen –t rsa 
