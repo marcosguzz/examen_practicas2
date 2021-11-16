@@ -61,5 +61,3 @@ l5
   Chuleta de comandos gpg (elbauldelprogramador) --> https://elbauldelprogramador.com/chuleta-de-comandos-para-gpg/
   
   Crear contraseñas ssh --> ssh-keygen –t rsa 
-
-
